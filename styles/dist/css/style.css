@@ -469,19 +469,6 @@ footer .fa-brands {
   pointer-events: none;
 }
 
-.video_container {
-  display: none;
-}
-@media (max-width: 690px) {
-  .video_container {
-    display: block;
-    background: #000;
-    position: relative;
-    min-width: 100vw;
-    z-index: -99;
-  }
-}
-
 .feature-video,
 .feature-video iframe {
   border: none;
