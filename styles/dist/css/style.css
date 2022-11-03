@@ -18,6 +18,8 @@ html {
   .heroHomeVideo {
     display: none;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../../assets/images/rokiameta.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -27,14 +29,15 @@ html {
 }
 @media (max-width: 991.98px) {
   .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/images/rokiameta.png");
+    max-width: 100vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/images/rokia.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 @media (max-width: 690px) {
   .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../../../assets/images/heroimg.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/images/rokia.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
